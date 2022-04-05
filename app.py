@@ -6,7 +6,7 @@ import numpy as np
 # Loading the model
 model = load_model("deployment_04042022")
 # Initial Setup
-# lr = setup(data = pd.read_csv('insurance.csv'), target = 'charges')
+lr = setup(data = pd.read_csv('insurance.csv'), target = 'charges', silent=True)
 
 
 def run():
